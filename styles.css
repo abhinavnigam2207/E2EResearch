@@ -1,0 +1,98 @@
+body{
+    font-family: monospace;
+}
+.dflex{
+    display: flex;
+}
+.diBlock{
+    display: inline-block;
+}
+.header{
+    text-align: center;
+    align-items: center;
+    border: 1px solid #CCD0D8;
+    font-size: large;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.application-content {
+    flex: 18;
+    background-color:#F5F6FA;
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    text-align: center;
+}
+
+.application-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #CCD0D8;
+    padding: 6% 1% 1% 1%;
+}
+.chart-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border: 1px solid #CCD0D8;
+    width: 90%;
+    height: 50%;
+}
+.f1{
+    border-right: 1px solid #CCD0D8;
+    padding: 1%;
+}
+.bl{
+    border-left: 1px solid #CCD0D8;
+}
+.w35{
+    width: 35%;
+}
+.w48{
+    width: 48%;
+}
+.w65{
+    width: 65%;
+    padding: 2%
+}
+.f12{
+    flex:12;
+}
+.f6{
+    flex:6;
+}
+.grey{
+    color: #CCD0D8;
+}
+.ca{
+    color: #789CF6;
+    background-color: #DDE6FD;
+    font-size: x-small;
+    border-radius: 20%;
+    padding: 2px;
+}
+.nav-icons{
+    padding: 70% 0;
+}
+.ptb7 {
+    padding: 7% 0%;
+}
+.ptb20 {
+    padding: 20% 0%;
+}
+.mt11 {
+    margin-top: 11%;
+}
+.bb{
+    border-bottom: 1px solid #CCD0D8;
+}

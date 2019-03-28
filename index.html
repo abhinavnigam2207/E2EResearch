@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>Assignment</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+    <header class="dflex header">
+        <div class="f1 grey">
+            <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+        </div>
+        <div class="f12">
+            <span class="ca">CA</span>
+            <span>New House</span>
+        </div>
+        <div class="f1 grey bl"><i class="fa fa-bell fa-lg" aria-hidden="true"></i></div>
+        <div class="f6">
+            <span><img src="User.JPG"/></span>
+            Cameron Svensson
+            <i class="fa fa-caret-down fa-lg grey" aria-hidden="true"></i>
+    </div>
+    </header>
+    <div class="main">
+      <nav class="application-nav grey">
+        <div class="nav-icons"><i class="fa fa-home fa-lg" aria-hidden="true"></i></div>
+        <div class="nav-icons"><i class="fa fa-clone fa-lg" aria-hidden="true"></i></div>
+        <div class="nav-icons"><i class="fa fa-square fa-lg" aria-hidden="true"></i></div>
+        <div class="nav-icons"><i class="fa fa-folder-open fa-lg" aria-hidden="true"></i></div>
+      </nav>
+      <main class="application-content">
+        <div class="chart-container">
+            <div class="f1 w65">
+                <div id="container" style="max-width:500px; max-height: 3500px; margin: 0 auto"></div>
+            </div>
+            <div class="bl w35">
+                <div class="ptb20 bb">
+                    <div class="grey" style="font-size: x-large;"><strong>PROJECT RISK</strong></div>
+                    <img src="risk.JPG"/>
+                    <div class="mt11"><strong>Balanced</strong></div>
+                    <a href="#">Change your link</a>
+                </div>
+                <div class="bb">
+                    <div class="diBlock ptb7 w48">
+                        <div>Nr</div>
+                        <strong>AWS 2455</strong>
+                    </div>
+                    <div class="diBlock ptb7 w48 bl">
+                        <div>Created</div>
+                        <strong>22 Dec 2013</strong>
+                    </div>
+                </div>
+                <div class="ptb7">
+                    <i class="fa fa-download fa-lg" aria-hidden="true"></i>Download overall
+                </div>
+            </div>
+        </div>
+      </main>
+    </div>
+    <script src="scripts.js"></script>
+    <!-- <script>
+        Highcharts.chart('container', {
+            chart: {
+                type: 'area'
+            },
+            title: {
+                text: ''
+            },
+            xAxis: {
+                allowDecimals: false,
+                labels: {
+                    formatter: function () {
+                        return this.value; // clean, unformatted number for year
+                    }
+                }
+            },
+            yAxis: {
+                labels: {
+                    formatter: function () {
+                        return this.value / 1000 + 'k';
+                    }
+                }
+            },
+            tooltip: {
+                pointFormat: '${point.y:,.0f}</b><br/>July 2021'
+            },
+            plotOptions: {
+                area: {
+                    pointStart: 2012,
+                    marker: {
+                        enabled: false,
+                        symbol: 'circle',
+                        radius: 50,
+                        states: {
+                            hover: {
+                                enabled: true
+                            }
+                        }
+                    }
+                }
+            },
+            series: [{
+                name: 'Your Balance',
+                data: [9000, 12000, 11000, 21000, 18000, 28000],
+                lineColor: '#88A7F8',
+                color: '#F2F5FE'
+            }, {
+                name: 'Market Value',
+                data: [9000, 10000, 9000, 19000, 16000, 26000],
+                lineColor: '#626262',
+                color: '#F2F5FE'
+            }, {
+                name: 'Your Deposits',
+                data: [10000, 10000, 10000, 10000, 10000, 10000],
+                lineColor: '#B0B0B0',
+                color: '#F2F5FE'
+            }]
+        });
+    </script> -->
+  </body>
+</html>
